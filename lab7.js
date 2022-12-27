@@ -80,4 +80,11 @@ function makePoema() {
         poem [i].style.backgroundColor = color;
     }
 }
+function makeMultTable() {
+    let tab = document.getElementById('multtable');
+    let tabCount = 9;
+    for(let i = 1; i<=tabCount; i++) {
+        tab.innerHTML += `<div class="multtable-item">20 * ${i} = ${20*i}</div>`;
+    }
+}
 
