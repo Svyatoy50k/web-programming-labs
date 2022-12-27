@@ -38,3 +38,7 @@ body {
     text-align: center;
     font-size: 20px;
 }
+#snowflakes {
+    max-width: 210px;
+    max-height: auto;
+}
