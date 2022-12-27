@@ -1,10 +1,9 @@
 body {
     margin: 0;  
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(216, 215, 254);
-height: 100%;
+    background-color: rgb(175, 255, 251);
+    height: 100%;
     width: 100%;
-
 }
 .header {
     background: black;
@@ -27,4 +26,15 @@ height: 100%;
     bottom: 0;
     left: 0;
     right: 0;
+}
+.step {
+    width: 200px;
+    height: 100px;
+    border: 1px solid;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
 }
