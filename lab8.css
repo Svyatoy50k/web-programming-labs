@@ -13,6 +13,7 @@ body {
     height: 80px;
     line-height: 80px;
     padding-left: 30px;
+    display: flex;
 }
 .footer {
     color: #888;
@@ -41,5 +42,11 @@ body {
     padding-left: 25px;
     color: rgb(8, 0, 164);
     display: flex;
+}
+#time{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
 }
 
