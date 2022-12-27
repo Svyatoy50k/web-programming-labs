@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="lab8.css" type="text/css">
         <script src="lab8.js"></script>
     </head>
-    <body onload="makeTable()">
+    <body>
         <div class="header">
             Калачёв Семён
         </div>
@@ -14,6 +14,13 @@
         <div class="content">
             <div id ="text">Сегодня</div>
             <div id="today"></div>
+            <div id="date">
+                Моя дата рождения: <input type="date">
+            </div>
+            <div>
+                <button id = "button" onclick="showDaysCount()">Рассчитать, сколько прошло дней</button>
+            </div>
+            <div id="result"></div>
         </div>
         
         <div class="footer">
